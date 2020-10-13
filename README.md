@@ -1,1 +1,1 @@
-AFP_2nd_project
+Ez az Alkalmazások fejlesztése projekt labor I. gy. tárgy nagy projektjéhez készült GitHub repo.
