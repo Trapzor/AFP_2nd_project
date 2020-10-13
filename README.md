@@ -6,4 +6,6 @@ Ez az Alkalmazások fejlesztése projekt labor I. gy. tárgy nagy projektjéhez 
   * Horváth Péter
   * Erdélyi Roland
 
+[Trello](https://trello.com/b/9Y6NgMNS/afp2ndproject)
+
 
