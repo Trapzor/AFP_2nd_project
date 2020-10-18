@@ -49,6 +49,8 @@
 * <h2>Rendszerre vonatkozó törvények, szabványok, ajánlások</h2>
 
 * <h2>Jelenlegi üzleti folyamatok modellje</h2>
+    
+    <img title="Jelenlegi üzleti folyamat" src="Jelenlegi_uzleti_folyamat_modell.png"/>
 
 * <h2>Igényelt üzleti folyamatok</h2>
 
