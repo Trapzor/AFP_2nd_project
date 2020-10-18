@@ -6,9 +6,9 @@
 
 * <h2>Vágyálom rendszer</h2>
 
-* <h2>Vágyálom rendszer</h2>
+* <h2>Funkcionális követelmények</h2>
 
-* <h2>Vágyálom rendszer</h2>
+* <h2>Rendszerre vonatkozó törvények, szabványok, ajánlások</h2>
 
 * <h2>Jelenlegi üzleti folyamatok modellje</h2>
 
