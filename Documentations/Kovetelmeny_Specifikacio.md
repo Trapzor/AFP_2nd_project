@@ -50,7 +50,7 @@
 
 * <h2>Jelenlegi üzleti folyamatok modellje</h2>
     
-    <img title="Jelenlegi üzleti folyamat" src="Jelenlegi_uzleti_folyamat_modell.png"/>
+    ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Jelenlegi_uzleti_folyamat_modell.png)
 
 * <h2>Igényelt üzleti folyamatok</h2>
 
