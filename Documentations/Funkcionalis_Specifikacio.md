@@ -6,6 +6,21 @@
 
 * <h2>Követelménylista</h2>
 
+    ID | Név | Kifejtés
+    -- | --- | --------
+    K1 | Regisztráció | A felhasználó regisztrálni tud a webáruház oldalára. A regisztráció opcionális, de sok kényelmi funkciót tesz lehetővé.
+    K2 | Bejelentkezés | Regisztráció után a felhasználó bejelentkezhet, ezáltal hozzáfér a további funkciókhoz.
+    K3 | Termékek hozzáadása | A felhasználók hozzáadhatják saját termékeiket a webáruházhoz, rendelhetnek hozzájuk képeket, leírásokat.
+    K4 | Termékek törlése | A téves információkat tartalmazó termékeket a felhasználó képes lesz törölni.
+    K5 | Virtuális kosár | A webáruház biztosít egy virtuális kosarat, amelybe a kívánt termékeket be lehet pakolni.
+    K6 | Termék keresés | Különböző szűrőkkel és szöveges keresővel tud a felhasználó keresni.
+    K7 | Akadálymentesítés | A webáruház segíti a hátrányos helyzetű felhasználókat.
+    K8 | Termékek elmentése | A felhasználó képes elmenteni egy számára szimpatikus terméket, hogy később ne kelljen újra megkeresni.
+    K9 | Értékelési felület | Regisztrált felhasználóink tudják értékelni a termékeket és a szolgáltatásokat, valamint szöveges megjegyzést is tehetnek.
+    K10 | Felhasználói fiók módosítása | A bejelentkezett felhasználó képes az adatait módosítani.
+    K11 | Felhasználó törlése | A webáruházból törlésre kerül a felhasználó minden adata.
+
+
 * <h2>Jelenlegi üzleti folyamatok modellje</h2>
 
     ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Jelenlegi_uzleti_folyamat_modell.png)
