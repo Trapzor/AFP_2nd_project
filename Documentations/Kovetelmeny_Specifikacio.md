@@ -57,6 +57,8 @@
 
 * <h2>Igényelt üzleti folyamatok</h2>
 
+    ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Igenyelt_uzleti_folyamat_modell.png)
+
 * <h2>Követelménylista</h2>
 
 * <h2>Riportok</h2>
