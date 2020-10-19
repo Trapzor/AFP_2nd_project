@@ -50,6 +50,7 @@
 
     - **GDPR**: A személyes adatok kezeléséről szóló rendelet
     - **A fogyasztóvédelemről szóló 1997. évi CLV. törvény (Fgytv.)**
+    -  Az elektronikus hírközlésről szóló 2003. évi C. törvény, az elektronikus kereskedelmi szolgáltatások, az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi          CVIII. törvény **(Cookie figyelmeztetés)** 
 
 * <h2>Jelenlegi üzleti folyamatok modellje</h2>
     
