@@ -1,6 +1,21 @@
 <center><h1>Funkcionális Specifikáció</h1></center>
 
 * <h2>Áttekintés</h2>
+    Az alkalmazásnak az elsődleges célja, hogy megkönnyítse az vásárlás folyamatát, mindenki számára.
+    Épp ezért, mert mindenki a célközönsége az oldalnak teljesen felhasználóbarátnak kell lennie, hogy mindenki tudja használni. (a hátrányos helyzetűek is)
+    Kategóriákra bontott termékek közül válogathat a felhasználó, és behelyezheti a virtuális kosarába / ki is veheti onnan -> meg is rendelheti őket.
+    Az oldalon regisztráció szükséges, azért, hogy könnyebbé tegye a felhasználók dolgát az oldalon, például megrendelésnél automatikusan kitölti a felhasználó adatait.
+
+    A funkciók áttekintve:
+
+    Regisztráció
+
+    Kosár rendszer
+
+    Hátrányban lévő emberek segítése
+
+    Evidens, letisztult design
+
 
 * <h2>Jelenlegi helyzet</h2>
 
