@@ -48,8 +48,8 @@
 
 * <h2>Rendszerre vonatkozó törvények, szabványok, ajánlások</h2>
 
-    *GDPR*: A személyes adatok kezeléséről szóló rendelet
-    *A fogyasztóvédelemről szóló 1997. évi CLV. törvény (Fgytv.)*
+    - **GDPR**: A személyes adatok kezeléséről szóló rendelet
+    - **A fogyasztóvédelemről szóló 1997. évi CLV. törvény (Fgytv.)**
 
 * <h2>Jelenlegi üzleti folyamatok modellje</h2>
     
