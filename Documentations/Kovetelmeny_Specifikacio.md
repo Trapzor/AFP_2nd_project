@@ -61,6 +61,14 @@
 
 * <h2>Követelménylista</h2>
 
+    ID | Név | Kifejtés
+    -- | --- | --------
+    K1 | Regisztráció | A felhasználó regisztrálni tud a webáruház oldalára. A regisztráció opcionális, de sok kényelmi funkciót tesz lehetővé.
+    K2 | Bejelentkezés | Regisztráció után a felhasználó bejelentkezhet, ezáltal hozzáfér a további funkciókhoz.
+    K3 | Termékek hozzáadása | A felhasználók hozzáadhatják saját termékeiket a webáruházhoz, rendelhetnek hozzájuk képeket, leírásokat.
+    K4 | Termékek törlése | A téves információkat tartalmazó termékeket a felhasználó képes lesz törölni.
+    K5 | Virtuális kosár | A webáruház biztosít egy virtuális kosarat, amelybe a kívánt termékeket be lehet pakolni.
+
 * <h2>Riportok</h2>
 
 * <h2>Fogalomtár</h2>
