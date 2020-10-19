@@ -15,9 +15,19 @@
     Hátrányban lévő emberek segítése
 
     Evidens, letisztult design
+    
+    Érintkezésmentes házhozszállítás támogatása
 
 
 * <h2>Jelenlegi helyzet</h2>
+
+    Manapság az emberek nagy része offline módon vásárol ami lassú, stresszes.
+    Arról nem is beszélve, hogy egyes településeken az elérhető termékek száma igen limitált. 
+    (pl: Egy faluban nem tudsz lemenni a boltba venni egy számítógépet)
+    A raktárkészlet problémája is adott, ami azt jelenti, hogy nem mindig van raktáron az a bizonyos termék amire szüksége van a vásárlónak.
+    Az emberek kisebb része pedig **online** vásárol, ami a jelenlegi világban igen lassú, körülményes 
+    (nem letisztult, lassú webshopok)
+    
 
 * <h2>Követelménylista</h2>
 
