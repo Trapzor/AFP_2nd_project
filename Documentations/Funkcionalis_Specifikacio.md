@@ -55,10 +55,13 @@
     ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Igenyelt_uzleti_folyamat_modell.png)
 
 * <h2>Használati esetek</h2>
+* 
 
 * <h2>Képernyő tervek</h2>
 
 * <h2>Forgatókönyv</h2>
+    Zolinak megtetszik egy termék a szomszéd városban, ám nincs nála pénz, ezért hazamegy érte. Mire visszaér a terméket valaki más már megvásárolta, ezzel Zoli elpazarolt
+    2 órát az életéből, kifizette az utazási költséget, és még a terméket sem kapta meg. Amint hazaért felment az internetre, és megrendelte ugyan azt a terméket a weboldalunkon, ami másnapra meg is                                  jött , a termék megkeresése, a regisztráció nem telt többe 10 percnél, a kiszállítási díj is olcsóbb volt mint az utiköltsége, illetve érintésmentes átvételt kért, ezért még járványügyileg is teljesen biztonságos volt.
 
 * <h2>Funkció - követelmény megfeleltetés</h2>
 
