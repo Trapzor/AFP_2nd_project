@@ -13,7 +13,7 @@
     Az emberek nagyobb része az üzletekben személyesen vásárol. A vásárlással rengeteg idő elmegy
     (elmenni az üzletbe, kikeresni a termékeket, beállni a sorba). Az üzletek nem találhatók meg
     minden városban és csak a nap egy adott időszakában vannak nyitva. Az üzletekben kevesebb a választási
-    lehetőség mint egy webáruházban. Termékek nem mindig vannak készleten és a vásárló csak akkor értesűl
+    lehetőség mint egy webáruházban. Termékek nem mindig vannak készleten és a vásárló csak akkor értesül
     erről, ha már az üzletben van. 
 
 * <h2>Vágyálom rendszer</h2>
