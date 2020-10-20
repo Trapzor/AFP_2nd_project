@@ -79,4 +79,5 @@
 * <h2>Riportok</h2>
 
 * <h2>Fogalomtár</h2>
+
     - **Cookie**: A felhasználó eszközén tárolt információ, mely a webszerver és webböngésző közötti kommunikációban használatos.
