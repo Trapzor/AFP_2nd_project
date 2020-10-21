@@ -55,7 +55,8 @@
     ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Igenyelt_uzleti_folyamat_modell.png)
 
 * <h2>Használati esetek</h2>
-* 
+
+    **Regisztrált felhasználó**: A regisztrált felhasználó képes rendelni a webáruházból, rendeléskor a fiókjában megadott adatok automatikusan kitöltésre kerülnek. Meg tudja változtatni a saját adatait, képes elmenteni a megtetszett termékeket és később megvásárolni azokat és értékelni tudja a webáruház termékeit, szolgáltatásait.
 
 * <h2>Képernyő tervek</h2>
 
