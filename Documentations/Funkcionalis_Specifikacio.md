@@ -61,6 +61,7 @@
 * <h2>Képernyő tervek</h2>
 
     - **Főoldal**:
+
     ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Screen_design_Home.png)
 
 * <h2>Forgatókönyv</h2>
