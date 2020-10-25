@@ -2,6 +2,8 @@
 
 * <h2>Rendszer célja</h2>
 
+    A rendszer célja egy olyan weboldal létrehozása, amelyben a felhasználó tud vásárolni a termékek közül. A felhasználó tud szűrni a termékek közül, értékelni tudja a termék minőségét és a weboldal szolgáltatásait. A weboldal akadálymentesített, ezért minden felhasználó könnyedén tudja kezelni a felületet. A webáruház rendelkezik egy virtuális kosárral, amelyben a felhasználó az általa kiválasztott termékeket tudja tárolni és megvásárolni. A webáruház minden internetkapcsolattal és webböngészővel rendelkező eszközön működik. 
+
 * <h2>Projektterv</h2>
 
 * <h2>Üzleti folyamatok modellje</h2>
