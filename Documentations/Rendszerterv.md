@@ -8,6 +8,8 @@
 
 * <h2>Üzleti folyamatok modellje</h2>
 
+    ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Igenyelt_uzleti_folyamat_modell.png)
+
 * <h2>Követelmények</h2>
 
     * **Funkcionális követelmények:**
