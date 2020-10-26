@@ -10,6 +10,23 @@
 
 * <h2>Követelmények</h2>
 
+    * **Funkcionális követelmények:**
+
+        - A felhasználó adatainak eltárolása
+        - A termékek adatainak eltárolása
+        - A felhasználói értékelések eltárolása
+        - A termékek közötti keresés és szűrés megvalósítása
+        - A termék kosárba helyezésének kialakítása
+        - A vásárlás menetének kialakítása
+    
+    * **Nemfunkcionális követelmények:**
+
+        - A felhasználók, más felhasználóknak csak a nevét és az értékelését látják
+    
+    * **Törvényi előírások, szabványok:**
+
+        - A GDPR-ban foglaltak betartása
+
 * <h2>Funkcionális terv</h2>
 
 * <h2>Fizikai környezet</h2>
