@@ -22,6 +22,7 @@
     * **Nemfunkcionális követelmények:**
 
         - A felhasználók, más felhasználóknak csak a nevét és az értékelését látják
+        - A rendszernek egyszerre több felhasználót kell kiszolgálnia
     
     * **Törvényi előírások, szabványok:**
 
