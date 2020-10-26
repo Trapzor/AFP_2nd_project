@@ -32,6 +32,13 @@
 
 * <h2>Fizikai környezet</h2>
 
+    Az alkalmazás web platformra készül, ezért minden internetkapcsolattal és webböngészővel rendelkező készüléken elérhető. Nincsenek megvásárolt software komponenseink. A fejlesztéshez használt eszközök:
+    - Visual Studio Code
+    - XAMPP
+    - Notepad++
+    - Git
+    - Trello
+
 * <h2>Absztrakt domain modell</h2>
 
 * <h2>Architekturális terv</h2>
