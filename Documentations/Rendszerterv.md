@@ -54,3 +54,9 @@
 * <h2>Telepítési terv</h2>
 
 * <h2>Karbantartási terv</h2>
+
+    A webáruház karbantartására időről időre sor fog kerülni illetve a lehető leghamarabb, amennyiben az oldal működését megnehezítő hibát
+    találunk. A hibafelderítés meggyorsítása érdekében szeretnénk az oldalon egy 'Jelentés' gombot elhelyezni, mely megnyomásával, és a mezők kitöltésével a felhansználó küldhet visszajelzést, amennyiben egy funkció nem működik megfelelően.
+    Ezeket a jelentéseket a fejlesztői csapat tagjai látni fogják, így hamar meg tudják kezdeni a hibák javítását.
+    A hibajelentés elküldésekor két mezőt fogunk látni magunk előtt: Az egyikben a probléma rövid, párszavas megfogalmazása szükséges, ezen mező
+    kitöltése kötelező, a másik mező a probléma részletesebb leírására szolgál mely kitöltése opcionális.
