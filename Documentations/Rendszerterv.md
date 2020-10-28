@@ -49,6 +49,9 @@
 
 * <h2>Implementációs terv</h2>
 
+    A webáruház felülete HTML, JavaScript nyelven készül. Az elemeket CSS fájlok segítségével dizájnoljuk. A termékek
+    és a felhasználók tárolására szükség van adatbázisra is. A webáruház backend részét PHP nyelven valósítjuk meg. A fájlokat külön választjuk, az átláthatóság és az egyszerűbb bővítés érdekében.
+
 * <h2>Tesztterv</h2>
 
 * <h2>Telepítési terv</h2>
