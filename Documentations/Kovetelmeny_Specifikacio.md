@@ -46,6 +46,12 @@
     
 * <h2>Funkcionális követelmények</h2>
 
+    - A felhasználó adatainak eltárolása
+    - A termékek adatainak eltárolása
+    - A felhasználók tudják értékelni a webáruház termékeit és szolgáltatásait
+    - A termékek között tudunk keresni szövegesen, vagy szűrni kategóriák vagy részletes tulajdonságok alapján
+    - A termékeket kosárba tudjuk helyezni
+
 * <h2>Rendszerre vonatkozó törvények, szabványok, ajánlások</h2>
 
     - **GDPR**: A személyes adatok kezeléséről szóló rendelet
