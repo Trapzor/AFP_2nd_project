@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Nomad's Webshop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="page">
