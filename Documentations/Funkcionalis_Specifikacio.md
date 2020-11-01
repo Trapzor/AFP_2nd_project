@@ -56,7 +56,9 @@
 
 * <h2>Használati esetek</h2>
 
-    **Regisztrált felhasználó**: A regisztrált felhasználó képes rendelni a webáruházból, rendeléskor a fiókjában megadott adatok automatikusan kitöltésre kerülnek. Meg tudja változtatni a saját adatait, képes elmenteni a megtetszett termékeket és később megvásárolni azokat és értékelni tudja a webáruház termékeit, szolgáltatásait.
+    - **Regisztrált felhasználó**: A regisztrált felhasználó képes rendelni a webáruházból, rendeléskor a fiókjában megadott adatok automatikusan kitöltésre kerülnek. Meg tudja változtatni a saját adatait, képes elmenteni a megtetszett termékeket és később megvásárolni azokat és értékelni tudja a webáruház termékeit, szolgáltatásait.
+
+    - **Admin felhasználó**: Az admin felhasználó látja a felhasználók által küldött hibajelentéseket, felelős a termékek hozzáadásáért és a webáruház megfelelő működéséért.
 
 * <h2>Képernyő tervek</h2>
 
