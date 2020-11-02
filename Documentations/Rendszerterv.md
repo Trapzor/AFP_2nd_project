@@ -57,6 +57,15 @@
     A tesztelés során az oldalon megvalósított funkciók működését figyeljük. A teszteléssel a különböző hibák megtalálása a cél.
     A teszteléseket a fejlesztői csapat minden tagja elvégzi. Egy teszt eredményeit a tagok dokumentálják külön fájlokba.
     A dokumentum táblázatos formában beküldendő.
+    A tesztelési dokumentum kitöltésére egy sablon:
+
+    Tesztelő: | Vezetéknév Keresztnév
+    Tesztelés ideje: | Év.hónap.nap
+    Böngésző: | Böngésző neve
+    ----------|--------------
+    Tesztszám | Rövid leírás | Eredmény | Megjegyzés
+    például. Teszt #01 | Regisztráció | Sikeres regisztrálás | Nem találtam problémát.
+    ... | ... | ... | ...
 
 
 * <h2>Telepítési terv</h2>
