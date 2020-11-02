@@ -1,3 +1,14 @@
 body {
     background-color: gray;
 }
+header {
+    background-color: lightgrey;
+    height: 120px;
+}
+header h3 {
+    font-size: 24pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+}
+}
