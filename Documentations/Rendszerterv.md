@@ -68,3 +68,4 @@
     Ezeket a jelentéseket a fejlesztői csapat tagjai látni fogják, így hamar meg tudják kezdeni a hibák javítását.
     A hibajelentés elküldésekor két mezőt fogunk látni magunk előtt: Az egyikben a probléma rövid, párszavas megfogalmazása szükséges, ezen mező
     kitöltése kötelező, a másik mező a probléma részletesebb leírására szolgál mely kitöltése opcionális.
+    A biztonság növelése érdekében szükséges bármilyen módosítás előtt az oldalról egy biztonsági mentést készíteni.
