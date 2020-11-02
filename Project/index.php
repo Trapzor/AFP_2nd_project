@@ -9,7 +9,7 @@
         <header>Nomad's Webshop</header>
         <nav></nav>
         <content></content>
-        <footer>Copyright &copy; 2020 Nomad Team</footer>
+        <footer><?php include_once 'backend/footer.php'; ?></footer>
     </div>
 </body>
 </html>
