@@ -11,4 +11,22 @@ header h3 {
     letter-spacing: 5px;
     margin: 0;
 }
+nav {
+    background-image: linear-gradient(to right, yellow, green);
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+.navbutton {
+    background-color: transparent;
+    padding-bottom: 20px;
+    display: inline;
+}
+.navbutton a {
+    padding: 70px;
+    text-decoration: none;
+    color: black;
+}
+.active {
+    border: 1px solid #fff;
 }
