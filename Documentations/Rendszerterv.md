@@ -59,11 +59,11 @@
     A dokumentum táblázatos formában beküldendő.
     A tesztelési dokumentum kitöltésére egy sablon:
 
-    ###Tesztelő: Vezetéknév Keresztnév
+    ### Tesztelő: Vezetéknév Keresztnév
 
-    ###Tesztelés ideje: Év.hónap.nap
-    
-    ###Böngésző: Böngésző neve
+    ### Tesztelés ideje: Év.hónap.nap
+
+    ### Böngésző: Böngésző neve
 
     Tesztszám | Rövid leírás | Eredmény | Megjegyzés
     ----------|--------------|----------|------------
