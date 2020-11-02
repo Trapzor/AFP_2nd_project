@@ -54,6 +54,11 @@
 
 * <h2>Tesztterv</h2>
 
+    A tesztelés során az oldalon megvalósított funkciók működését figyeljük. A teszteléssel a különböző hibák megtalálása a cél.
+    A teszteléseket a fejlesztői csapat minden tagja elvégzi. Egy teszt eredményeit a tagok dokumentálják külön fájlokba.
+    A dokumentum táblázatos formában beküldendő.
+
+
 * <h2>Telepítési terv</h2>
 
     A áruház internet segítségével lesz elérhető egy webcímen keresztül. A webcím megadásával a felhasználó a webáruház főoldalára kerül.
