@@ -6,8 +6,8 @@
 </head>
 <body>
     <div id="page">
-        <header>Nomad's Webshop</header>
         <nav></nav>
+        <header><?php include_once 'backend/header.php'; ?></header>
         <content></content>
         <footer><?php include_once 'backend/footer.php'; ?></footer>
     </div>
