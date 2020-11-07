@@ -47,6 +47,8 @@
 
 * <h2>Adatbázis terv</h2>
 
+    ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Database_plan.png)
+
 * <h2>Implementációs terv</h2>
 
     A webáruház felülete HTML, JavaScript nyelven készül. Az elemeket CSS fájlok segítségével dizájnoljuk. A termékek
