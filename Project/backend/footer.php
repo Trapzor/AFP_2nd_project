@@ -1,1 +1,1 @@
-Copyright &copy; 2020 Nomad Team
+<center>Copyright &copy; 2020 Nomad Team</center>
