@@ -8,7 +8,7 @@
     <div id="page">
         <header><?php include_once 'backend/header.php'; ?></header>
         <nav><?php require_once 'backend/nav.php'; ?></nav>
-        <content></content>
+        <content><?php require_once 'backend/routing.php'; ?></content>
         <footer><?php include_once 'backend/footer.php'; ?></footer>
     </div>
 </body>
