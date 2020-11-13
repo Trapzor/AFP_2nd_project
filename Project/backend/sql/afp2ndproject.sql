@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Nov 08. 14:40
+-- Létrehozás ideje: 2020. Nov 13. 18:10
 -- Kiszolgáló verziója: 10.4.11-MariaDB
 -- PHP verzió: 7.4.3
 
@@ -43,13 +43,21 @@ CREATE TABLE `bugreports` (
 
 CREATE TABLE `products` (
   `id` int(11) NOT NULL,
-  `name` int(250) NOT NULL,
+  `name` varchar(250) NOT NULL,
   `image` varchar(250) NOT NULL,
   `category` varchar(100) NOT NULL,
   `rating` int(11) DEFAULT NULL,
   `quantity` int(11) NOT NULL DEFAULT 0,
   `price` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- A tábla adatainak kiíratása `products`
+--
+
+INSERT INTO `products` (`id`, `name`, `image`, `category`, `rating`, `quantity`, `price`) VALUES
+(1, 'Barna Antik Asztal', 'Barna_Antik_Asztal.jpg', 'bútor', 5, 2, 43990),
+(2, 'IPhone X', 'IPhone_X.jpg', 'okostelefon', 5, 10, 279990);
 
 -- --------------------------------------------------------
 
@@ -115,7 +123,7 @@ ALTER TABLE `bugreports`
 -- AUTO_INCREMENT a táblához `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT a táblához `users`
