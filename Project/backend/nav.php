@@ -1,12 +1,17 @@
-<div class="navbutton active">
-    <a href="#">Főoldal</a>
+<?php 
+if (empty($_GET['p']))
+    $_GET['p'] = 'home';
+?>
+
+<div class="navbutton <?=$_GET['p']=='home'?"active":""?>">
+    <a href="index.php?p=home">Főoldal</a>
 </div>
-<div class="navbutton">
-    <a href="#">Termékeink</a>
+<div class="navbutton <?=$_GET['p']=='browse'?"active":""?>">
+    <a href="index.php?p=browse">Termékeink</a>
 </div>
-<div class="navbutton">
-    <a href="#">Kedvencek</a>
+<div class="navbutton <?=$_GET['p']=='favorites'?"active":""?>">
+    <a href="index.php?p=favorites">Kedvencek</a>
 </div>
-<div class="navbutton">
-    <a href="#">Kosár</a>
+<div class="navbutton <?=$_GET['p']=='cart'?"active":""?>">
+    <a href="index.php?p=cart">Kosár</a>
 </div>
