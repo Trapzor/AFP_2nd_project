@@ -9,6 +9,7 @@ header {
     height: 120px;
 }
 header h3 {
+    display: inline-block;
     font-size: 24pt;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -85,4 +86,14 @@ nav {
 
 .productsHeader {
     margin-left: 10px;
+}
+
+.userInfo {
+    float: right;
+    position: relative;
+    height: max-content;
+    margin: 5px;
+}
+.userInfo a {
+    color: black;
 }
