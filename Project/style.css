@@ -22,12 +22,14 @@ nav {
 }
 .navbutton {
     background-color: transparent;
-    padding-bottom: 20px;
-    display: inline;
+    display: inline-block;
+    vertical-align: middle;
+    height: 38px;
+    line-height: 38px;
 }
 .navbutton a {
-    padding: 70px;
     text-decoration: none;
+    padding: 70px;
     color: black;
 }
 .active {
