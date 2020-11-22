@@ -7,5 +7,8 @@ switch ($_GET['p']) {
     case 'browse': require_once 'backend/products/browse.php'; break;
     case 'favorites': require_once 'backend/favorites.php'; break;
     case 'cart': require_once 'backend/cart.php'; break;
+    case 'show': require_once 'backend/products/show.php'; break;
+    
+    case 'login': require_once 'backend/user/login.php'; break;
 }
 ?>
