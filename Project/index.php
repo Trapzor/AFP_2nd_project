@@ -1,3 +1,8 @@
+<?php
+session_start();
+require_once 'backend/userManager.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
