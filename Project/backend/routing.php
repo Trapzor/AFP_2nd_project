@@ -10,5 +10,6 @@ switch ($_GET['p']) {
     case 'show': require_once 'backend/products/show.php'; break;
     
     case 'login': require_once 'backend/user/login.php'; break;
+    case 'register': require_once 'backend/user/register.php'; break;
 }
 ?>
