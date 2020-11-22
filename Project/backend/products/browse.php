@@ -8,8 +8,10 @@ $list = getList($query);
 <div class="productList">
     <?php foreach ($list as $i): ?>
         <div class="productCard">
-            <h4><?=$i['name']?></h4>
-            <img src="Product_Images/<?=$i['image']?>">
+            <a href="index.php?p=show&s=<?=$i['id']?>">
+                <h4><?=$i['name']?></h4>
+                <img src="Product_Images/<?=$i['image']?>">
+            </a>
             <div class="orderContainer">
                 <?=$i['price']?> Ft
                 <button>Kosárba</button>
