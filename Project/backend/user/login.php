@@ -29,5 +29,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['loginSubmit'])) {
     </div>
 </form>
 <div class="login_info">
-    <small>Nincs fiókja? <a href="#">Regisztráljon</a> egyet.</small>
+    <small>Nincs fiókja? <a href="index.php?p=register">Regisztráljon</a> egyet.</small>
 </div>
