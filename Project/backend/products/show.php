@@ -11,10 +11,16 @@
 }
 ?>
 
+
 <div class="product">
+    <a href="index.php?p=browse" id="backToBrowse"><i class="fa fa-arrow-left"></i></a>
+    <a href="#" id="addToFavorite"><i class="fa fa-heart"></i></a>
     <h3><?=$product['name']?></h3>
-    <img src=<?=$product['image']?>>
+    <hr>
+    <img src="Product_images/<?=$product['image']?>">
     <h4><?=$product['category']?></h4>
     <h4><?=$product['rating']?></h4>
     <h3><?=$product['price']?></h3>
+    <hr>
+    <button><i class="fa fa-shopping-basket"></i></button>
 </div>
