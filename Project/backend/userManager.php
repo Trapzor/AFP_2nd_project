@@ -42,7 +42,7 @@ function UserRegister($email, $password, $name, $address, $phone_number) {
         $params = [
             ':name' => $name,
             ':address' => $address,
-            ':phone_number' => $phone_number
+            ':phone_number' => $phone_number,
             ':email' => $email,
             ':password' => sha1($password)
         ];
