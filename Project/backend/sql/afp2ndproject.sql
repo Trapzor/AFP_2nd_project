@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Nov 13. 18:10
+-- Létrehozás ideje: 2020. Nov 22. 10:52
 -- Kiszolgáló verziója: 10.4.11-MariaDB
 -- PHP verzió: 7.4.3
 
@@ -38,6 +38,23 @@ CREATE TABLE `bugreports` (
 -- --------------------------------------------------------
 
 --
+-- Tábla szerkezet ehhez a táblához `favorite_products`
+--
+
+CREATE TABLE `favorite_products` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `name` varchar(250) NOT NULL,
+  `image` varchar(250) NOT NULL,
+  `category` varchar(250) NOT NULL,
+  `rating` int(11) DEFAULT NULL,
+  `quantity` int(11) NOT NULL DEFAULT 0,
+  `price` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Tábla szerkezet ehhez a táblához `products`
 --
 
@@ -56,8 +73,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `image`, `category`, `rating`, `quantity`, `price`) VALUES
-(1, 'Barna Antik Asztal', 'Barna_Antik_Asztal.jpg', 'bútor', 5, 2, 43990),
-(2, 'IPhone X', 'IPhone_X.jpg', 'okostelefon', 5, 10, 279990);
+(1, 'IPhone X', 'IPhone_X.jpg', 'okostelefon', 5, 10, 279990);
 
 -- --------------------------------------------------------
 
@@ -97,6 +113,12 @@ ALTER TABLE `bugreports`
   ADD PRIMARY KEY (`id`);
 
 --
+-- A tábla indexei `favorite_products`
+--
+ALTER TABLE `favorite_products`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- A tábla indexei `products`
 --
 ALTER TABLE `products`
@@ -120,10 +142,16 @@ ALTER TABLE `bugreports`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT a táblához `favorite_products`
+--
+ALTER TABLE `favorite_products`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT a táblához `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT a táblához `users`
