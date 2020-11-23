@@ -1,4 +1,4 @@
-<a href="index.php"><img src="frontend/nomads_logo.png" alt="our logo" class="nomads_logo"></a>
+<a href="index.php"><img src="frontend/pictures/nomads_logo.png" alt="our logo" class="nomads_logo"></a>
 <div class="userInfo">
     <?php if (!IsUserLoggedIn()): ?>
         <i class="fa fa-user-circle-o"></i> <a href="index.php?p=login">Bejelentkezés</a>
