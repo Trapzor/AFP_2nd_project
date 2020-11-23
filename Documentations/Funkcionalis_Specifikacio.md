@@ -72,6 +72,12 @@
 
 * <h2>Funkció - követelmény megfeleltetés</h2>
 
+Követelmény | Funkció
+Innovatív, egyszerű | Akadálymentesítés, otthonról használható
+Gyorsaság | Virtualizációs technológián alapuló szélessávú kapcsolattal rendelkező webhostingot használunk, fejlesztés közben törekszünk az egyszerűségre.
+Skálázhatóság | Anomáliamentes modern MySql adatbázis
+A User kényelme | Regisztráció, kedvencek
+
  <h2>Fogalomszótár</h2>
 PHP: 	Egy programozási nyelv, ami általában egy webszerveren kerül feldolgozásra.
 HTML:	Egy dokumentum, ami arra van tervezve, hogy egy webböngésző jelenítse meg.
