@@ -177,6 +177,12 @@ nav {
     overflow: visible;
 }
 
+.product img {
+    width: 196px;
+    height: 196px;
+    margin-left: 10px;
+}
+
 .product h3 {
     text-align: center;
 }
@@ -228,4 +234,22 @@ height: 100px;
 #addToCart:hover{
     background-color: brown;
     color: wheat;
+}
+.item {
+    margin: 5px;
+    background-color: gainsboro;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+.item span {
+    font-size: 16pt;
+}
+
+#itemprice {
+    float: right;
 }
