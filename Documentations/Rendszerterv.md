@@ -44,7 +44,7 @@
 * <h2>Absztrakt domain modell</h2>
 
 * <h2>Architekturális terv</h2>
-
+	Az architektúrális tervnek a funkcionális követelményeken túl fontos elemét képezik a rendszer használatát befolyásoló tényezők is. Az adatok tárolását adatbázisok segítségével biztosítjuk így rugalmasság szempontjából a későbbi bővítésekre is felkészültünk.
 * <h2>Adatbázis terv</h2>
 
     ![Image](https://github.com/unicsbalint/AFP_2nd_project/blob/master/Pictures/Database_plan.png)
