@@ -48,6 +48,7 @@
     - Trello
 
 * <h2>Absztrakt domain modell</h2>
+	/pictures/abstract-domain-model
 
 * <h2>Architekturális terv</h2>
 	Az architektúrális tervnek a funkcionális követelményeken túl fontos elemét képezik a rendszer használatát befolyásoló tényezők is. Az adatok tárolását adatbázisok segítségével biztosítjuk így rugalmasság szempontjából a későbbi bővítésekre is felkészültünk.
