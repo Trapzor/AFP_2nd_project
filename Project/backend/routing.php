@@ -9,7 +9,9 @@ switch ($_GET['p']) {
     case 'cart': require_once 'backend/cart.php'; break;
     case 'show': require_once 'backend/products/show.php'; break;
     
-    case 'login': require_once 'backend/user/login.php'; break;
-    case 'register': require_once 'backend/user/register.php'; break;
+    case 'login': !IsUserLoggedIn() ? require_once 'backend/user/login.php' : header('Location: index.php'); break;
+    case 'register': !IsUserLoggedIn() ? require_once 'backend/user/register.php' : header('Location: index.php'); break;
+    case 'profile': IsUserLoggedIn() ? require_once 'backend/user/profile.php' : header('Location: index.php'); break;
+    case 'logout': IsUserLoggedIn() ? UserLogout() : header('Location: index.php'); break;
 }
 ?>
