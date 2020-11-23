@@ -171,3 +171,8 @@ nav {
 #category {
     top: 30%;
 }
+.nomads_logo{
+position: relative;
+width: 150px;
+height: 100px;
+}
