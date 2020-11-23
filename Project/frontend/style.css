@@ -8,13 +8,6 @@ header {
     background-color: lightgrey;
     height: 120px;
 }
-header h3 {
-    display: inline-block;
-    font-size: 24pt;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin: 0;
-}
 nav {
     background-image: linear-gradient(to right, yellow, green);
     height: 40px;
