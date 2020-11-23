@@ -83,7 +83,11 @@
     K11 | Felhasználó törlése | A webáruházból törlésre kerül a felhasználó minden adata.
 
 * <h2>Riportok</h2>
+	Riportok eredményei:
+Új rendszerről van szó, ezért a meglévő rendszerhez nem kell igazodnia, azonban elvárt, hogy intuitív, letisztult legyen a design.
+Elvárt továbbá a gyors működés, skálázhatóság.
 
+A megfelelő működés érdekében legalább 3 fejlesztőből álló csapat igényeltetik a webáruház karbantartására, frissítésére.
 * <h2>Fogalomtár</h2>
 
     - **Cookie**: A felhasználó eszközén tárolt információ, mely a webszerver és webböngésző közötti kommunikációban használatos.
