@@ -133,6 +133,16 @@ nav {
     text-align: center;
 }
 
+.user_panel {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.user_panel .logout_button a {
+    text-decoration: none;
+}
+
 .product {
     background-color: #FAFAFAAB;
     border: 2px solid lime;

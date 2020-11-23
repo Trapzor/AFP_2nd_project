@@ -11,5 +11,6 @@ switch ($_GET['p']) {
     
     case 'login': require_once 'backend/user/login.php'; break;
     case 'register': require_once 'backend/user/register.php'; break;
+    case 'logout': IsUserLoggedIn() ? UserLogout() : header('Location: index.php'); break;
 }
 ?>
