@@ -18,8 +18,8 @@
     <h3><?=$product['name']?></h3>
     <hr>
     <img src="Product_images/<?=$product['image']?>">
-    <h4><?=$product['category']?></h4>
-    <h4><?=$product['rating']?></h4>
+    <h4 id="rating"><?=$product['rating']?></h4>
+    <h4 id="category"><?=$product['category']?></h4>
     <h3><?=$product['price']?></h3>
     <hr>
     <button><i class="fa fa-shopping-basket"></i></button>

@@ -157,3 +157,17 @@ nav {
     font-size: 200%;
     float: left;
 }
+
+.product h4 {
+    position: absolute;
+    left: 50%;
+    margin: 10px;
+}
+
+#rating {
+    top: 20%;
+}
+
+#category {
+    top: 30%;
+}
