@@ -24,6 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
             ':email' => $postData['email']
         ];
 
+        require_once 'backend/dbFunctions.php';
         if (!executeDML($query, $params)) {
             echo "Hiba az adatok bevitelekor!";
         } else header("Location: index.php?p=logout");
