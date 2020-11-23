@@ -9,7 +9,7 @@
 }
 
 ?>
-<h2 class="productsHeader">Favorite products</h2>
+<h2 class="productsHeader">Kedvenc termékek</h2>
 <div class="productList">
     <?php if (Count($fav_list) > 0) :?>
         <?php foreach ($fav_list as $p) : ?>
