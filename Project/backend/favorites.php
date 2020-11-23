@@ -19,7 +19,7 @@
                 </a>
                 <div class="orderContainer">
                     <?=$p['price']?> Ft
-                    <button>Kosárba</button>
+                    <button id="addToCart">Kosárba</button>
                 </div>
             </div>
         <?php endforeach;?>

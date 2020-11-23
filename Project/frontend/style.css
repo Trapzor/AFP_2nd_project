@@ -28,6 +28,7 @@ nav {
 }
 .navbutton {
     background-color: transparent;
+    border-radius: 8px;
     display: inline-block;
     vertical-align: middle;
     height: 38px;
@@ -187,4 +188,14 @@ nav {
 position: relative;
 width: 150px;
 height: 100px;
+}
+#addToCart{
+    background-color: tomato;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+}
+#addToCart:hover{
+    background-color: brown;
+    color: wheat;
 }

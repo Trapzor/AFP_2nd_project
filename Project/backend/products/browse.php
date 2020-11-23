@@ -14,7 +14,9 @@ $list = getList($query);
             </a>
             <div class="orderContainer">
                 <?=$i['price']?> Ft
-                <button>Kosárba</button>
+    <a  href="index.php?p=show&s=<?=$i['id']?>">
+                <button id="addToCart">Kosárba</button>
+    </a>
             </div>
         </div>
     <?php endforeach; ?>
