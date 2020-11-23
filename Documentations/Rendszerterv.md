@@ -1,3 +1,4 @@
+
 <center><h1>Rendszerterv</h1></center>
 
 * <h2>Rendszer célja</h2>
@@ -5,6 +6,9 @@
     A rendszer célja egy olyan weboldal létrehozása, amelyben a felhasználó tud vásárolni a termékek közül. A felhasználó tud szűrni a termékek közül, értékelni tudja a termék minőségét és a weboldal szolgáltatásait. A weboldal akadálymentesített, ezért minden felhasználó könnyedén tudja kezelni a felületet. Az ADMIN szerepkörrel rendelkező felhasználó felelős a termékek hozzáadásáért és a webáruház megfelelő működéséért. A webáruház rendelkezik egy virtuális kosárral, amelyben a felhasználó az általa kiválasztott termékeket tudja tárolni és megvásárolni. A webáruház minden internetkapcsolattal és webböngészővel rendelkező eszközön működik. 
 
 * <h2>Projektterv</h2>
+ Az átlag felhasználók jogköre megegyezik, mindegyik felhasználónak joga van módosítani személyes adatait, törölni felhasználóját, saját hirdetéseit,  A felhasználók értékelhetik a megvásárolt termékeket.
+ Ezen kívül az ADMIN felhasználó jogköre jóváhagyni a felhasználók által felrakott termékeket.
+
 
 * <h2>Üzleti folyamatok modellje</h2>
 
@@ -31,6 +35,8 @@
         - A GDPR-ban foglaltak betartása
 
 * <h2>Funkcionális terv</h2>
+	A felhasználó, termékek, felhasználói értékelések adatainak tárolására MySql adatbáziban kerül sor.
+	A szűrési rendszer , keresés, kosárba helyezés, vásárlás menetének megvalósítására php programnyelvben lesz megoldva.
 
 * <h2>Fizikai környezet</h2>
 
