@@ -27,14 +27,19 @@ nav {
     height: 38px;
     line-height: 38px;
 }
+.navbutton:hover{
+    background-color:rgb(8,30,218);
+}
+.navbutton a:hover{
+    color:wheat;
+}
 .navbutton a {
     text-decoration: none;
     padding: 70px;
-    color: black;
+    color: rgb(20, 2, 2);
 }
 .active {
-    border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(6, 45, 117, 0.589);
 }
 
 .productCard {
