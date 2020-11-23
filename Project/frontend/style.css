@@ -139,6 +139,26 @@ nav {
     background-color: white;
 }
 
+.user_panel .modify_button a {
+    text-decoration: none;
+}
+
+.bg_lightgray {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.form_modify_row {
+    margin-bottom: 10px;
+}
+
+.btnDelete {
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
 .user_panel .logout_button a {
     text-decoration: none;
 }
