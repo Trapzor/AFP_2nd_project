@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Nov 22. 10:52
+-- Létrehozás ideje: 2020. Nov 23. 15:25
 -- Kiszolgáló verziója: 10.4.11-MariaDB
 -- PHP verzió: 7.4.3
 
@@ -43,13 +43,7 @@ CREATE TABLE `bugreports` (
 
 CREATE TABLE `favorite_products` (
   `id` int(11) NOT NULL,
-  `uid` int(11) NOT NULL,
-  `name` varchar(250) NOT NULL,
-  `image` varchar(250) NOT NULL,
-  `category` varchar(250) NOT NULL,
-  `rating` int(11) DEFAULT NULL,
-  `quantity` int(11) NOT NULL DEFAULT 0,
-  `price` int(11) NOT NULL
+  `uid` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -101,6 +95,13 @@ CREATE TABLE `users` (
   `password` varchar(250) NOT NULL,
   `permission` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- A tábla adatainak kiíratása `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `address`, `phone_number`, `email`, `password`, `permission`) VALUES
+(1, 'Horváth Péter', 'Tesztvaros, Teszt utca 1. ', '01234567890', 'user@test.com', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 0);
 
 --
 -- Indexek a kiírt táblákhoz
@@ -157,7 +158,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT a táblához `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
