@@ -39,7 +39,7 @@ if(array_key_exists('f',$_GET) && !empty($_GET['f'])) {
     <img src="Product_images/<?=$product['image']?>">
     <h4 id="rating"><?=$product['rating']?></h4>
     <h4 id="category"><?=$product['category']?></h4>
-    <h3><?=$product['price']?></h3>
+    <h3><?=$product['price']?> Ft</h3>
     <hr>
     <button><i class="fa fa-shopping-basket"></i></button>
 </div>
