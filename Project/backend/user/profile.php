@@ -1,4 +1,13 @@
 <?php
+if (array_key_exists('d_id', $_GET) && !empty($_GET['d_id'])) {
+    $query = "DELETE FROM users WHERE id = :id";
+	$params = [':id' => $_GET['d_id']];
+	require_once 'backend/dbFunctions.php';
+	if(!executeDML($query, $params)) {
+		echo "Hiba a törlés közben!";
+	} else { header('Location: index.php?p=logout'); }
+}
+
 if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
     $postData = [
         'id' => $_POST['id'],
