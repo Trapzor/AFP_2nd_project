@@ -37,9 +37,22 @@ if(array_key_exists('f',$_GET) && !empty($_GET['f'])) {
     <h3><?=$product['name']?></h3>
     <hr>
     <img src="Product_images/<?=$product['image']?>">
-    <h4 id="rating"><?=$product['rating']?></h4>
+    <div id="rating"></div>
     <h4 id="category"><?=$product['category']?></h4>
     <h3><?=$product['price']?> Ft</h3>
     <hr>
     <button><i class="fa fa-shopping-basket"></i></button>
 </div>
+
+<script>
+const ratingBlock = document.getElementById("rating");
+for (i = 0; i < 5; i++) {
+    var star = document.createElement("i");
+    if (i < <?=$product['rating']?>) {
+        star.classList.add("fa", "fa-star", "checked");
+    } else {
+        star.classList.add("fa", "fa-star");
+    }
+    ratingBlock.appendChild(star);
+}
+</script>

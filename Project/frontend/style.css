@@ -220,6 +220,14 @@ nav {
 
 #rating {
     top: 20%;
+    display: inline;
+    margin: 0px 50px;
+    position: relative;
+    float: right;
+}
+
+.checked {
+    color: orange;
 }
 
 #category {
