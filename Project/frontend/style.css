@@ -137,11 +137,15 @@ nav {
 .user_panel {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .user_panel .modify_button a {
     text-decoration: none;
+    color: black;
 }
 
 .bg_lightgray {
@@ -162,6 +166,7 @@ nav {
 
 .user_panel .logout_button a {
     text-decoration: none;
+    color: black;
 }
 
 .product {
