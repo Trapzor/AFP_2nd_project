@@ -28,6 +28,7 @@ $query = "SELECT id, name, price FROM products WHERE id IN (SELECT product_id FR
 $params = [ ':uid' => IsUserLoggedIn() ? $_SESSION['uid'] : 0];
 require_once "backend/dbFunctions.php";
 $shopping_list = getList($query, $params);
+$itemPrice = 0;
 ?>
 <div class="cart">
 <h2>Kosár</h2>
@@ -45,11 +46,17 @@ $shopping_list = getList($query, $params);
                         <a href="#" class="cart-quantity-button"><i class="fa fa-plus"></i></a>
                     </div>
                     <span class='itemprice'><?=$l['price']?> Ft</span>
+                    <?php $itemPrice = $itemPrice + $l['price']; ?>
                 </div>
                 <div class="cart-remove-panel">
                     <a href="index.php?p=cart&d_id=<?=$l['id']?>" class="cart-remove-button"><i class="fa fa-trash"></i></a>
                 </div>
             <?php endforeach; ?>
         <?php endif; ?>
+        <hr>
+        <div class="cart-summary-panel">
+            <span class="cart-summary">Összesen: </span> 
+            <span class="cart-summary cart-items-price"><?=Count($shopping_list) > 0 ? $itemPrice : 0?> Ft</span>
+        </div>
     </div>
 </div>
