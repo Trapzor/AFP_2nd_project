@@ -11,7 +11,20 @@
         echo("Hiba a kosárba helyezéskor");
     }
 }
-$query = "SELECT name, price FROM products WHERE id IN (SELECT product_id FROM shopping_cart WHERE user_id = :uid)";
+if(array_key_exists('d_id',$_GET) && !empty($_GET['d_id'])) {
+    $query = "DELETE FROM shopping_cart WHERE user_id = :user_id AND product_id = :product_id";
+    $params = [
+        ':user_id' => IsUserLoggedIn() ? $_SESSION['uid'] : 0,
+        ':product_id' => $_GET['d_id']
+    ];
+    require_once "backend/dbFunctions.php";
+    if (executeDML($query, $params)) {
+        header("Location: index.php?p=cart");
+    } else {
+        echo("Hiba a kosárelem törlésekor!");
+    }
+}
+$query = "SELECT id, name, price FROM products WHERE id IN (SELECT product_id FROM shopping_cart WHERE user_id = :uid)";
 $params = [ ':uid' => IsUserLoggedIn() ? $_SESSION['uid'] : 0];
 require_once "backend/dbFunctions.php";
 $shopping_list = getList($query, $params);
@@ -32,6 +45,9 @@ $shopping_list = getList($query, $params);
                         <a href="#" class="cart-quantity-button"><i class="fa fa-plus"></i></a>
                     </div>
                     <span class='itemprice'><?=$l['price']?> Ft</span>
+                </div>
+                <div class="cart-remove-panel">
+                    <a href="index.php?p=cart&d_id=<?=$l['id']?>" class="cart-remove-button"><i class="fa fa-trash"></i></a>
                 </div>
             <?php endforeach; ?>
         <?php endif; ?>
