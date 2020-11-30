@@ -6,7 +6,7 @@
     ];
     require_once "backend/dbFunctions.php";
     if (executeDML($query, $params)) {
-        header("Location: index.php?p=cart");
+        header("Location: index.php?p=browse");
     } else {
         echo("Hiba a kosárba helyezéskor");
     }
