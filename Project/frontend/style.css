@@ -249,10 +249,83 @@ height: 100px;
     color: wheat;
 }
 .item {
-    margin: 5px;
+    margin-left: 10px;
     background-color: gainsboro;
     padding: 5px;
-    border: 2px solid black;
+    width: 88%;
+}
+
+.cart-header {
+    color: white;
+    font-size: 18pt;
+    position: relative;
+}
+
+.cart-item-name {
+    margin-left: 10px;
+}
+
+.cart-item-quantity {
+    margin-left: 52%;
+}
+
+.cart-item-price {
+    margin-left: 50px;
+}
+
+.cart-outline {
+    background-color: rgba(43, 43, 92, 0.808);
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+}
+
+.cart-quantity-panel {
+    display: inline;
+    margin-left: 66%;
+}
+
+.cart-quantity {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.cart-remove-panel {
+    float: right;
+    position: relative;
+    right: 60px;
+    bottom: 29px;
+}
+
+.cart-remove-button {
+    text-decoration: none;
+    color: red;
+    padding: 7px;
+    border: 1px solid red;
+    font-size: 15pt;
+    border-radius: 5px;
+    background-color: rgba(124, 0, 0);
+}
+
+.cart-quantity-button {
+    font-size: 10pt;
+    text-decoration: none;
+    color: black;
+}
+
+.cart-summary-panel {
+    margin-left: 1%;
+}
+
+.cart-summary-panel .cart-summary {
+    font-size: 18pt;
+    color: white;
+}
+
+.cart-summary-panel .cart-items-price {
+    margin-left: 70%;
 }
 
 .cart h2 {
@@ -263,6 +336,6 @@ height: 100px;
     font-size: 16pt;
 }
 
-#itemprice {
+.itemprice {
     float: right;
 }
