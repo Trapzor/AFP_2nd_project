@@ -41,7 +41,11 @@ if(array_key_exists('f',$_GET) && !empty($_GET['f'])) {
     <h4 id="category"><?=$product['category']?></h4>
     <h3><?=$product['price']?> Ft</h3>
     <hr>
-    <button><i class="fa fa-shopping-basket"></i></button>
+    <button>
+        <a  href="index.php?p=cart&i=<?=$product['id']?>">
+            <i class="fa fa-shopping-basket"></i>
+        </a>
+    </button>
 </div>
 
 <script>

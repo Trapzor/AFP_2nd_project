@@ -181,6 +181,11 @@ nav {
     margin: 12px 0px;
     overflow: visible;
 }
+.product button a {
+    display: block;
+    width: auto;
+    height: auto;
+}
 
 .product img {
     width: 196px;
