@@ -283,7 +283,8 @@ height: 100px;
 
 .cart-quantity-panel {
     display: inline;
-    margin-left: 66%;
+    position: absolute;
+    left: 66%;
 }
 
 .cart-quantity {
