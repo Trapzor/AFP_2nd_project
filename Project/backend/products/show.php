@@ -49,14 +49,5 @@ if(array_key_exists('f',$_GET) && !empty($_GET['f'])) {
 </div>
 
 <script>
-const ratingBlock = document.getElementById("rating");
-for (i = 0; i < 5; i++) {
-    var star = document.createElement("i");
-    if (i < <?=$product['rating']?>) {
-        star.classList.add("fa", "fa-star", "checked");
-    } else {
-        star.classList.add("fa", "fa-star");
-    }
-    ratingBlock.appendChild(star);
-}
+showRating(<?=$product['rating']?>);
 </script>

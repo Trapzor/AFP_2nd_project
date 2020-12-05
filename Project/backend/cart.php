@@ -41,9 +41,9 @@ $itemPrice = 0;
                 <div class="item">
                     <span><?=$l['name']?></span> 
                     <div class="cart-quantity-panel">
-                        <a href="javascript:DecrementQuantity();" class="cart-quantity-button"><i class="fa fa-minus"></i></a>
+                        <a href="#" class="cart-quantity-button minus"><i class="fa fa-minus"></i></a>
                         <span class="cart-quantity">1</span>
-                        <a href="javascript:IncrementQuantity();" class="cart-quantity-button"><i class="fa fa-plus"></i></a>
+                        <a href="#" class="cart-quantity-button plus"><i class="fa fa-plus"></i></a>
                     </div>
                     <span class='itemprice'><?=$l['price']?> Ft</span>
                     <?php $itemPrice = $itemPrice + $l['price']; ?>
@@ -60,30 +60,6 @@ $itemPrice = 0;
         </div>
     </div>
 </div>
-
 <script>
-var quantityBlock = document.body.getElementsByClassName('cart-quantity')[0];
-var itemPrice = document.body.getElementsByClassName('itemprice')[0];
-
-function IncrementQuantity() {
-    var quantity = quantityBlock.innerHTML;
-    var price = itemPrice.innerHTML;
-    if (quantity < 10) {
-        quantity++;
-        price = <?=$l['price']?> * quantity;
-        quantityBlock.innerHTML = quantity;
-        itemPrice.innerHTML = price+" Ft";
-    }
-}
-
-function DecrementQuantity() {
-    var quantity = quantityBlock.innerHTML;
-    var price = itemPrice.innerHTML;
-    if (quantity > 1) {
-        quantity--;
-        price = <?=$l['price']?> * quantity;
-        quantityBlock.innerHTML = quantity;
-        itemPrice.innerHTML = price+" Ft";
-    }
-}
+cartSetup();
 </script>
