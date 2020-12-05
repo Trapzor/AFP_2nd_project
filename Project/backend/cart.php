@@ -57,6 +57,7 @@ $itemPrice = 0;
         <div class="cart-summary-panel">
             <span class="cart-summary">Összesen: </span> 
             <span class="cart-summary cart-items-price"><?=Count($shopping_list) > 0 ? $itemPrice : 0?> Ft</span>
+            <button type="submit" class="cart-order-button">Megrendelés</button>
         </div>
     </div>
 </div>

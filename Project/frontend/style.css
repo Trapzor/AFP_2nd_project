@@ -338,6 +338,16 @@ height: 100px;
     text-align: center;
 }
 
+.cart-order-button {
+    background-color: lawngreen;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 80%;
+}
+
 .item span {
     font-size: 16pt;
 }
