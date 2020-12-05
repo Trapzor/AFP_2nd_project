@@ -9,6 +9,7 @@ require_once 'backend/userManager.php';
     <title>Nomad's Webshop</title>
     <link rel="stylesheet" href="frontend/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="frontend/script.js"></script>
 </head>
 <body>
     <div id="page">
