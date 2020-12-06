@@ -8,6 +8,7 @@ switch ($_GET['p']) {
     case 'favorites': require_once 'backend/favorites.php'; break;
     case 'cart': require_once 'backend/cart.php'; break;
     case 'show': require_once 'backend/products/show.php'; break;
+    case 'order': require_once 'backend/order.php'; break;
     
     case 'login': !IsUserLoggedIn() ? require_once 'backend/user/login.php' : header('Location: index.php'); break;
     case 'register': !IsUserLoggedIn() ? require_once 'backend/user/register.php' : header('Location: index.php'); break;
