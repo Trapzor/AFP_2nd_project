@@ -355,3 +355,47 @@ height: 100px;
 .itemprice {
     float: right;
 }
+
+.orderPage{
+    margin: 10px;
+    padding: 2px;
+    width: 80%;
+    background-color: gray;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    border: 3px solid;
+    border-color: darkcyan;
+}
+
+.orderPage h5{
+    float: right;
+}
+
+.orderPage #inputdata input{
+    margin: 5px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    right: 25%;
+}
+
+#inputpaymentmethod{
+    margin: 10px;
+    position: relative;
+}
+
+.orderPage a{
+    position: relative;
+    left: 37%;
+}
+
+.orderPage a button{
+    background: lightgreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px 5px 25px 5px;
+    width: 25%;
+    height: 50px;
+    font-size: 20pt;
+}
