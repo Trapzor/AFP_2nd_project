@@ -385,12 +385,7 @@ height: 100px;
     position: relative;
 }
 
-.orderPage a{
-    position: relative;
-    left: 37%;
-}
-
-.orderPage a button{
+.orderPage button{
     background: lightgreen;
     border: 2px solid black;
     border-radius: 20px;
@@ -398,4 +393,6 @@ height: 100px;
     width: 25%;
     height: 50px;
     font-size: 20pt;
+    position: relative;
+    left: 37%;
 }
