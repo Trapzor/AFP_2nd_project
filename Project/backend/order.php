@@ -26,7 +26,7 @@
             if (executeDML($query, $params)) {
                 header("Location: index.php?p=cart");
             } else {
-                echo("Hiba a rendeléskor");
+                echo "<script>alert('Hiba a rendeléskor!');</script>";
             }
         }
     }

@@ -10,15 +10,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
     ];
 
     if (empty($postData['name']) || empty($postData['address']) || empty($postData['phone_number']) || empty($postData['email']) || empty($postData['password']) || empty($postData['password1'])) {
-        echo "Hiányzó adat(ok)!";
+        echo "<script>alert('Hiányzó adatok!');</script>";
     } else if (!filter_var($postData['email'], FILTER_VALIDATE_EMAIL)) {
-        echo "Hibás email formátum!";
+        echo "<script>alert('Hibás e-mail formátum!');</script>";
     } else if ($postData['password'] != $postData['password1']) {
-        echo "A jelszavak nem egyeznek!";
+        echo "<script>alert('A jelszavak nem egyeznek!');</script>";
     } else if (strlen($postData['password']) < 8) {
-        echo "A jelszó túl rövid! Legalább 8 karakter hosszúnak kell lennie!";
+        echo "<script>alert('A jelszó túl rövid, legalább 8 karakter hosszú kell, hogy legyen!');</script>";
     } else if (!UserRegister($postData['email'], $postData['password'], $postData['name'], $postData['address'], $postData['phone_number'])) {
-        echo "Sikertelen regisztráció!";
+        echo "<script>alert('Sikertelen regisztráció!');</script>";
     }
 
     $postData['password'] = $postData['password1'] = "";

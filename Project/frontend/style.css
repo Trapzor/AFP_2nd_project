@@ -49,6 +49,7 @@ body {
 
 header{
     background-image: url('../frontend/pictures/header_background.jpg');
+    background-size: cover;
     position: relative;
     margin: 0px;
     z-index:0;

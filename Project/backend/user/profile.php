@@ -4,7 +4,7 @@ if (array_key_exists('d_id', $_GET) && !empty($_GET['d_id'])) {
 	$params = [':id' => $_GET['d_id']];
 	require_once 'backend/dbFunctions.php';
 	if(!executeDML($query, $params)) {
-		echo "Hiba a törlés közben!";
+		echo "<script>alert('Hiba a törlés közben!');</script>";
 	} else { header('Location: index.php?p=logout'); }
 }
 
@@ -20,9 +20,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
     if($_SESSION['name'] == $postData['name'] && $_SESSION['address'] == $postData['address'] && $_SESSION['phone_number'] == $postData['phone_number'] && $_SESSION['email'] == $postData['email']) {
         header("Location: index.php?p=profile");
     } else if(empty($postData['name']) || empty($postData['address']) || empty($postData['email']) || empty($postData['phone_number'])) {
-        echo "Hiányzó adat(ok)!";
+        echo "<script>alert('Hiányzó adatok!');</script>";
     } else if(!filter_var($postData['email'], FILTER_VALIDATE_EMAIL)) {
-        echo "Hibás email formátum!";
+        echo "<script>alert('Hibás e-mail formátum!');</script>";
     } else {
         $query = "UPDATE users SET id = :id, name = :name, address = :address, phone_number = :phone_number, email = :email WHERE id = :id";
         $params = [
@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
 
         require_once 'backend/dbFunctions.php';
         if (!executeDML($query, $params)) {
-            echo "Hiba az adatok bevitelekor!";
+            echo "<script>alert('Hiba az adatok bevitelekor!');</script>";
         } else header("Location: index.php?p=logout");
     }
 }
