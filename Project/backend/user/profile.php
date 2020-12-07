@@ -44,29 +44,21 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
 <center><h2><?=$_SESSION['name']?> profilja</h2></center>
 <h4>Személyes információk</h4>
 <hr/>
-<form method="post" class="bg_lightgray">
-    <input type="hidden" name="id" value="<?=$_SESSION['uid']?>">
-    <div class="form_modify_row">
+<div class="regContainer">
+<form method="post">
+    <input type="hidden" name="id" value="<?=$_SESSION['uid']?>"> 
         <label for="name">Név</label>
-        <input type="text" name="name" value="<?=$_SESSION['name']?>">
-    </div>
-    <div class="form_modify_row">
+        <input type="text" name="name" class="regElements" value="<?=$_SESSION['name']?>">
         <label for="Address">Lakcím</label>
-        <input type="text" name="address" value="<?=$_SESSION['address']?>">
-    </div>
-    <div class="form_modify_row">
+        <input type="text" name="address" class="regElements" value="<?=$_SESSION['address']?>">
         <label for="phone_number">Telefonszám</label>
-        <input type="text" name="phone_number" value="<?=$_SESSION['phone_number']?>">
-    </div>
-    <div class="form_modify_row">
+        <input type="text" name="phone_number"  class="regElements" value="<?=$_SESSION['phone_number']?>">
         <label for="email">Email cím</label>
-        <input type="email" name="email" value="<?=$_SESSION['email']?>">
-    </div>
-    <div class="form_modify_row">
-        <input type="submit" name="modify" value="Módosítás">
-    </div>
+        <input type="email" name="email" class="regElements" value="<?=$_SESSION['email']?>">     
+        <input type="submit" class="regButton" name="modify" value="Módosítás">
+    
 </form>
-
+</div>
 <h4>Fiók információk</h4>
 <hr/>
 <div class="bg_lightgray">

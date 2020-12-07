@@ -4,6 +4,7 @@ html{
 body {
     background-color: rgb(255, 255, 255);
     margin: 0px;
+    margin-bottom: 50px;
     /*
     position: fixed;   
     height: 100%;
@@ -186,11 +187,6 @@ nav {
 .user_panel .modify_button a {
     text-decoration: none;
     color: black;
-}
-
-.bg_lightgray {
-    background-color: lightgray;
-    margin: 10px;
 }
 
 .form_modify_row {
