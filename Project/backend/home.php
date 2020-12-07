@@ -1,3 +1,3 @@
 <div class="home">
-    Home
+    home
 </div>
