@@ -25,33 +25,34 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
 }
 
 ?>
-
+<div class="regContainer">
 <form method="post" class="form_register">
     <div class="form_register_row">
-        <label for="name">Név</label>
-        <input type="text" name="name" placeholder="Név">
+        <label for="name"><b>Név</b></label>
+        <input type="text" name="name" placeholder="Név" class="regElements">
     </div>
     <div class="form_register_row">
-        <label for="Address">Lakcím</label>
-        <input type="text" name="address" placeholder="Lakcím">
+        <label for="Address"><b>Lakcím</b></label>
+        <input type="text" name="address" placeholder="Lakcím" class="regElements">
     </div>
     <div class="form_register_row">
-        <label for="phone_number">Telefonszám</label>
-        <input type="text" name="phone_number" placeholder="Telefonszám">
+        <label for="phone_number"><b>Telefonszám</b></label>
+        <input type="text" name="phone_number" placeholder="Telefonszám" class="regElements">
     </div>
     <div class="form_register_row">
-        <label for="email">Email cím</label>
-        <input type="email" name="email" placeholder="Email cím">
+        <label for="email"><b>Email cím</b></label>
+        <input type="email" name="email" placeholder="Email cím" class="regElements">
     </div>
     <div class="form_register_row">
-        <label for="password">Jelszó</label>
-        <input type="password" name="password" placeholder="Jelszó" value="">
+        <label for="password"><b>Jelszó</b></label>
+        <input type="password" name="password" placeholder="Jelszó" value="" class="regElements">
     </div>
     <div class="form_register_row">
-        <label for="password_confirm">Jelszó ismét</label>
-        <input type="password" name="password_confirm" placeholder="Jelszó" value="">
+        <label for="password_confirm"><b>Jelszó ismét</b></label>
+        <input type="password" name="password_confirm" placeholder="Jelszó" value="" class="regElements">
     </div>
     <div class="form_register_row">
-        <input type="submit" name="register" value="Regisztráció">
+        <input type="submit" name="register" value="Regisztráció" class="regButton">
     </div>
 </form>
+<div>
