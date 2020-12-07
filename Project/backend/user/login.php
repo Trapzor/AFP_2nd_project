@@ -15,19 +15,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['loginSubmit'])) {
 }
 ?>
 
-<form class="login_form" method="post">
-    <div class="form_login_row">
+<div class="regContainer">
+<form class="login_form" method="post">   
         <label for="userEmail">Email cím</label>
-        <input type="email" name="userEmail" id="userEmail" placeholder="Email cím">
-    </div>
-    <div class="form_login_row">
+        <input type="email" name="userEmail" id="userEmail" placeholder="Email cím" class="regElements"> 
         <label for="userPassword">Jelszó</label>
-        <input type="password" name="userPassword" id="userPassword" placeholder="Jelszó" value="">
-    </div>
-    <div class="form_login_row">
-        <input class="btnSubmit" type="submit" name="loginSubmit" value="Bejelentkezés">
-    </div>
+        <input type="password" name="userPassword" id="userPassword" placeholder="Jelszó" value="" class="regElements">        
+        <input type="submit" name="loginSubmit" value="Bejelentkezés" class="regButton">
 </form>
-<div class="login_info">
+
     <small>Nincs fiókja? <a href="index.php?p=register">Regisztráljon</a> egyet.</small>
+
 </div>

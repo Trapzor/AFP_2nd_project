@@ -164,20 +164,6 @@ nav {
     color: black;
 }
 
-.form_login_row {
-    width: 250px;
-    height: max-content;
-    margin: auto;
-    padding: 10px;
-    background-color: cornsilk;
-    text-align: center;
-}
-
-.form_login_row .btnSubmit {
-    background-color: greenyellow;
-    border-radius: 5px;
-}
-
 .login_info {
     width: 250px;
     height: max-content;
