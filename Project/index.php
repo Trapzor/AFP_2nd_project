@@ -12,7 +12,7 @@ require_once 'backend/userManager.php';
     <script src="frontend/script.js"></script>
 </head>
 <body>
-    <div id="page">
+    <div>
         <header><?php include_once 'backend/header.php'; ?></header>
         <nav><?php require_once 'backend/nav.php'; ?></nav>
         <content><?php require_once 'backend/routing.php'; ?></content>

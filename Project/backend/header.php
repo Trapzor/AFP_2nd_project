@@ -1,5 +1,4 @@
- <div>
-    
+ <div>   
     <a href="index.php"><img src="frontend/pictures/nomads_logo.png" alt="our logo" class="nomads_logo"></a>
 <div class="userInfo">
     <?php if (!IsUserLoggedIn()): ?>
