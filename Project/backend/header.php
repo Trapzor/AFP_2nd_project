@@ -1,4 +1,6 @@
-<a href="index.php"><img src="frontend/pictures/nomads_logo.png" alt="our logo" class="nomads_logo"></a>
+ <div>
+    
+    <a href="index.php"><img src="frontend/pictures/nomads_logo.png" alt="our logo" class="nomads_logo"></a>
 <div class="userInfo">
     <?php if (!IsUserLoggedIn()): ?>
         <i class="fa fa-user-circle-o"></i> <a href="index.php?p=login">Bejelentkezés</a>
@@ -10,4 +12,5 @@
             <div class="logout_button"><a href="index.php?p=logout"><i class="fa fa-power-off"></i> Kijelentkezés</a></div>
         </div>
     <?php endif; ?>
+</div>
 </div>
