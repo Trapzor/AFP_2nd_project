@@ -7,7 +7,7 @@
             'phone_number' => $_POST['phonenuminput'],
         ];
         if ($postData['name'] == null || $postData['address'] == null || $postData['email'] == null || $postData['phone_number'] == null) {
-            echo("A *-gal jelölt mezők kitöltése kötelező!");
+            echo("<script>alert('A *-al jelölt mezők kitöltése kötelező!');</script>");
         }
         else {
             if (IsUserLoggedIn()){

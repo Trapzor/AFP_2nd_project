@@ -9,9 +9,11 @@
 }
 
 ?>
+<?php if (IsUserLoggedIn()): ?>
 <h1 class="favProducts">
 <?php echo $_SESSION['name']?> kedvenc termékei:
 </h1>
+<?php endif; ?>
 
 <div class="productList">
     <?php if (Count($fav_list) > 0) :?>
