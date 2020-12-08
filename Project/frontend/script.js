@@ -24,8 +24,8 @@ function cartSetup() {
 function IncreaseQuantity(event) {
     var clickedCartItem = event.target;
     var quantityPanel = clickedCartItem.parentElement.parentElement.getElementsByClassName('cart-quantity')[0];
-    var quantity = parseInt(quantityPanel.innerHTML);
-    quantity = quantity+1;
+    var quantity = parseInt(quantityPanel.innerHTML);   
+    quantity = quantity+1;     
     quantityPanel.innerHTML = quantity;
     updatePrice();
 }
@@ -34,7 +34,10 @@ function DecreaseQuantity(event) {
     var clickedCartItem = event.target;
     var quantityPanel = clickedCartItem.parentElement.parentElement.getElementsByClassName('cart-quantity')[0];
     var quantity = parseInt(quantityPanel.innerHTML);
+    if(quantity > 1)
+    {
     quantity = quantity-1;
+    }
     quantityPanel.innerHTML = quantity;
     updatePrice();
 }
