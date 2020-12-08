@@ -1,22 +1,44 @@
 <?php
-$query = "SELECT id, name, image, price FROM products";
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['filterButton'])) {
+    if (!empty($_POST['filterInput'])) {
+        header('Location: index.php?p=browse&f='.$_POST['filterInput']);
+    } else {
+        header('Location: index.php?p=browse');
+    }
+    
+}
+
+if (array_key_exists('f', $_GET) || !empty($_GET['f'])) {
+    $query = "SELECT id, name, image, price FROM products WHERE name LIKE '%".$_GET['f']."%'";
+} else {
+    $query = "SELECT id, name, image, price FROM products";
+}
 require_once 'backend/dbFunctions.php';
 $list = getList($query);
 ?>
 
-<div class="productList"> 
-    <?php foreach ($list as $i): ?>
-        <div class="productCard">
-            <a href="index.php?p=show&s=<?=$i['id']?>">
-                <h4><?=$i['name']?></h4>
-                <img src="Product_Images/<?=$i['image']?>">
-            </a>
-            <div class="orderContainer">
-                <?=$i['price']?> Ft
-    <a  href="index.php?p=cart&i=<?=$i['id']?>">
-                <button id="addToCart" class="fa fa-shopping-basket"></button>
-    </a>
-            </div>
+<div>
+    <h2>Összes termék</h2>
+    <form method="post">
+        <div class="filterBar">
+        <input type="text" name="filterInput" placeholder="Termék neve"></input>
+        <button type="submit" name="filterButton"><i class="fa fa-search"></i></button>
         </div>
-    <?php endforeach; ?>
+    </form>
+    <div class="productList">
+        <?php foreach ($list as $i): ?>
+            <div class="productCard">
+                <a href="index.php?p=show&s=<?=$i['id']?>">
+                    <h4><?=$i['name']?></h4>
+                    <img src="Product_Images/<?=$i['image']?>">
+                </a>
+                <div class="orderContainer">
+                    <?=$i['price']?> Ft
+        <a  href="index.php?p=cart&i=<?=$i['id']?>">
+                    <button id="addToCart" class="fa fa-shopping-basket"></button>
+        </a>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
 </div>
