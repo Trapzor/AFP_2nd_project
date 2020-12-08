@@ -77,4 +77,22 @@ function UserRating($user_id, $product_id, $rating_value, $rating_description){
     }
 
 }
+
+function UserBugreport($user_id, $report, $date){
+
+        require_once 'backend/dbFunctions.php';
+    
+        $query = "INSERT INTO bugreports (uid, report, date) VALUES (:user_id, :report, :date)";
+        $params = [
+            ':user_id' => $user_id,
+            ':report' => $report,
+            ':date' => $date
+        ];
+
+        if (executeDML($query, $params))
+            header("Location: index.php");
+
+
+}
+
 ?>
