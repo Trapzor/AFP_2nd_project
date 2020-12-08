@@ -33,29 +33,17 @@
 ?>
 
 <form method="post">
-    <div class="orderPage">
-        <h5>A *-gal jelölt mezők kitöltése kötelező</h5>
-        <h2>Rendelési adatok megadása*</h2>
-        <div id="inputdata">
+    <div class="regContainer">       
+        <h2>Rendelési adatok megadása</h2>   
+        <h6>a *-gal jelölt mezők kitöltése kötelező</h6> 
             <label for="nameinput">Név*: </label>
-            <br>
-            <input type="text" name="nameinput" value="<?=IsUserLoggedIn() ? $_SESSION['name'] : ""?>">
-        </div>
-        <div id="inputdata">
+            <input class="regElements" type="text" name="nameinput" value="<?=IsUserLoggedIn() ? $_SESSION['name'] : ""?>">    
             <label for="addressinput">Szállítási cím*: </label>
-            <br>
-            <input type="text" name="addressinput" value="<?=IsUserLoggedIn() ? $_SESSION['address'] : ""?>">
-        </div>
-        <div id="inputdata">
+            <input class="regElements" type="text" name="addressinput" value="<?=IsUserLoggedIn() ? $_SESSION['address'] : ""?>">
             <label for="emailinput">Email cím*: </label>
-            <br>
-            <input type="email" name="emailinput" value="<?=IsUserLoggedIn() ? $_SESSION['email'] : ""?>">
-        </div>
-        <div id="inputdata">
+            <input class="regElements" type="email" name="emailinput" value="<?=IsUserLoggedIn() ? $_SESSION['email'] : ""?>">             
             <label for="phonenuminput">Telefonszám*: </label>
-            <br>
-            <input type="text" name="phonenuminput" value="<?=IsUserLoggedIn() ? $_SESSION['phone_number'] : ""?>">
-        </div>
+            <input class="regElements" type="text" name="phonenuminput" value="<?=IsUserLoggedIn() ? $_SESSION['phone_number'] : ""?>">  
         <br>
         <hr>
         <br>
@@ -67,6 +55,6 @@
         <br>
         <hr>
         <br>
-        <button name="order">Megrendelés</button>
+        <button class="regButton" name="order">Megrendelés</button>
     </div>
 </form>
