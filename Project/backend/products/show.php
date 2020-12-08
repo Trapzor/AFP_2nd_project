@@ -34,10 +34,13 @@ if(array_key_exists('f',$_GET) && !empty($_GET['f'])) {
 <div class="product">
     <a href="index.php?p=browse" id="backToBrowse"><i class="fa fa-arrow-left"></i></a>
     <a href="index.php?p=show&s=<?=$product['id']?>&f=<?=$product['id']?>" id="addToFavorite"><i class="fa fa-heart"></i></a>
+
     <h3><?=$product['name']?></h3>
     <hr>
     <img src="Product_images/<?=$product['image']?>">
     <div id="rating"></div>
+    <a href="index.php?p=rate&s=<?=$product['id']?>" id="rateProduct"></i>Értékelés</a>
+    <a href="index.php?p=listrate&s=<?=$product['id']?>" id="rateProduct"></i>Értékelések megtekintése</a>
     <h4 id="category"><?=$product['category']?></h4>
     <h3><?=$product['price']?> Ft</h3>
     <hr>
