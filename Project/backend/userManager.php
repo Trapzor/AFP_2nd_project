@@ -52,4 +52,29 @@ function UserRegister($email, $password, $name, $address, $phone_number) {
     }
     return false;
 }
+
+function UserRating($user_id, $product_id, $rating_value, $rating_description){
+    $query = "SELECT rating_value FROM rating WHERE user_id = :user_id AND product_id = :product_id";
+    $params = [ ':user_id' => $user_id,
+                ':product_id' => $product_id
+    ];
+
+
+    require_once 'backend/dbFunctions.php';
+
+    $record = getRecord($query, $params);
+    if (empty($record)) {
+        $query = "INSERT INTO rating (product_id, user_id, rating_value, rating_description) VALUES (:product_id, :user_id, :rating_value, :rating_description)";
+        $params = [
+            ':product_id' => $product_id,
+            ':user_id' => $user_id,
+            ':rating_value' => $rating_value,
+            ':rating_description' => $rating_description
+        ];
+
+        if (executeDML($query, $params))
+            header("Location: index.php?p=show&s=".$product_id);
+    }
+
+}
 ?>
