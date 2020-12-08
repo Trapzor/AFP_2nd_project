@@ -13,6 +13,8 @@ switch ($_GET['p']) {
     case 'login': !IsUserLoggedIn() ? require_once 'backend/user/login.php' : header('Location: index.php'); break;
     case 'register': !IsUserLoggedIn() ? require_once 'backend/user/register.php' : header('Location: index.php'); break;
     case 'profile': IsUserLoggedIn() ? require_once 'backend/user/profile.php' : header('Location: index.php'); break;
+    case 'rate': IsUserLoggedIn() ? require_once 'backend/products/rating.php' : header('Location: index.php'); break;
+    case 'listrate': IsUserLoggedIn() ? require_once 'backend/products/list.php' : header('Location: index.php'); break;
     case 'logout': IsUserLoggedIn() ? UserLogout() : header('Location: index.php'); break;
 }
 ?>
