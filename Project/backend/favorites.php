@@ -9,7 +9,10 @@
 }
 
 ?>
-<h2 class="productsHeader">Kedvenc termékek</h2>
+<h1 class="favProducts">
+<?php echo $_SESSION['name']?> kedvenc termékei:
+</h1>
+
 <div class="productList">
     <?php if (Count($fav_list) > 0) :?>
         <?php foreach ($fav_list as $p) : ?>

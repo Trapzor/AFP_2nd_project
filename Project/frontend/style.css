@@ -63,12 +63,13 @@ header{
 }
 footer{
     margin-top:10px;
-    background-color: rgba(80, 79, 82, 0.808);
+    background-color: rgba(105, 105, 105, 0.582);
     color: whitesmoke;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    text-shadow: 1px 1px 2px black;
 }
 nav {
     margin-top: 1px;
@@ -98,7 +99,7 @@ nav {
     text-decoration: none;
     padding: 70px;
     color: rgb(20, 2, 2);
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px 2px white;
 }
 .active {
     border-radius: 50px;  
@@ -143,13 +144,11 @@ nav {
     height: 20%;
     font-size: 12pt;
     text-align: center;
-    background-color: lime;
 }
 
 .orderContainer button {
     width: 100%;
     height: 50%;
-    background-color: yellow;
     border: none;
 }
 
@@ -158,13 +157,6 @@ nav {
     text-align: center;
     width: 80%;
     margin: auto;
-}
-
-
-.productsHeader {
-    margin-left: 10px;
-    justify-content: center;
-    text-align: center;
 }
 
 .userInfo {
@@ -177,6 +169,11 @@ nav {
 }
 .userInfo a {
     color: black;
+}
+.favProducts{
+    margin-left: 10%;
+    text-shadow: 2px 1px 6px #122957;
+    color: ghostwhite; 
 }
 
 .login_info {
@@ -293,15 +290,14 @@ width: 150px;
 height: 100px;
 }
 #addToCart{
-    background-color: tomato;
-    font-style: oblique;
     font-weight: bold;
     color: black;
+    background-color: rgb(185, 184, 184);
     cursor: pointer;
 }
 #addToCart:hover{
-    background-color: brown;
-    color: wheat;
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 39, 112);
 }
 .item {
     margin-left: 10px;

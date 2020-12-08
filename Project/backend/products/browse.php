@@ -3,9 +3,8 @@ $query = "SELECT id, name, image, price FROM products";
 require_once 'backend/dbFunctions.php';
 $list = getList($query);
 ?>
-<div class="productsHeader"> <h2>Termékeink</h2> </div>
 
-<div class="productList">
+<div class="productList"> 
     <?php foreach ($list as $i): ?>
         <div class="productCard">
             <a href="index.php?p=show&s=<?=$i['id']?>">
@@ -15,7 +14,7 @@ $list = getList($query);
             <div class="orderContainer">
                 <?=$i['price']?> Ft
     <a  href="index.php?p=cart&i=<?=$i['id']?>">
-                <button id="addToCart">Kosárba</button>
+                <button id="addToCart" class="fa fa-shopping-basket"></button>
     </a>
             </div>
         </div>
