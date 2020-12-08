@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         <input type="text" name="phone_number" placeholder="Telefonszám" class="regElements">
     </div>
     <div class="form_register_row">
-        <label for="email"><b>Email cím</b></label>
+        <label for="email"><b>E-mail</b></label>
         <input type="email" name="email" placeholder="Email cím" class="regElements">
     </div>
     <div class="form_register_row">

@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['loginSubmit'])) {
 
 <div class="regContainer">
 <form class="login_form" method="post">   
-        <label for="userEmail">Email cím</label>
+        <label for="userEmail">E-mail</label>
         <input type="email" name="userEmail" id="userEmail" placeholder="Email cím" class="regElements"> 
         <label for="userPassword">Jelszó</label>
         <input type="password" name="userPassword" id="userPassword" placeholder="Jelszó" value="" class="regElements">        

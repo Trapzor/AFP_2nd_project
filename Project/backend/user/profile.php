@@ -42,6 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
 ?>
 
 <center><h2><?=$_SESSION['name']?> profilja</h2></center>
+</br>
 <h4 class="moveIt">Személyes információk</h4>
 <hr/>
 <div class="regContainer">
@@ -53,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
         <input type="text" name="address" class="regElements" value="<?=$_SESSION['address']?>">
         <label for="phone_number">Telefonszám</label>
         <input type="text" name="phone_number"  class="regElements" value="<?=$_SESSION['phone_number']?>">
-        <label for="email">Email cím</label>
+        <label for="email">E-mail</label>
         <input type="email" name="email" class="regElements" value="<?=$_SESSION['email']?>">     
         <input type="submit" class="regButton" name="modify" value="Módosítás">
     
