@@ -11,6 +11,7 @@
         <div class="user_panel">
             <div class="alignUsername"><i class="fa fa-user-circle-o"></i> <?=$_SESSION['name']; ?></div>
             <hr/>
+            <div class="report_button"><a href="index.php?p=report"><i class="fa fa-bug"></i> Hibajelentés küldése</a></div>
             <div class="modify_button"><a href="index.php?p=profile"><i class="fa fa-gear"></i> Fiókadatok módosítása</a></div>
             <div class="logout_button"><a href="index.php?p=logout"><i class="fa fa-power-off"></i> Kijelentkezés</a></div>
         </div>
