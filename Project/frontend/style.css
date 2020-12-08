@@ -170,6 +170,20 @@ nav {
 }
 .userInfo a {
     color: black;
+    text-decoration: auto;  
+}
+.userInfo a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.loginButton{
+    color: black;
+    text-decoration: auto;
+    border-radius: 10px;
+    border: 2px solid powderblue;
+    padding: 5px;
+}
+.loginButton:hover{
+    background-color: rgba(255, 255, 255, 0.3);
 }
 .favProducts{
     margin-left: 10%;
@@ -442,4 +456,7 @@ height: 100px;
     font-size: 20pt;
     position: relative;
     left: 37%;
+}
+.moveIt{
+    margin-left: 15%;
 }

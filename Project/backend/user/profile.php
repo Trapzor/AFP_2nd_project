@@ -42,7 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
 ?>
 
 <center><h2><?=$_SESSION['name']?> profilja</h2></center>
-<h4>Személyes információk</h4>
+<h4 class="moveIt">Személyes információk</h4>
 <hr/>
 <div class="regContainer">
 <form method="post">
@@ -59,7 +59,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['modify'])) {
     
 </form>
 </div>
-<h4>Fiók információk</h4>
+<h4 class="moveIt">Fiók információk</h4>
 <hr/>
 <div class="bg_lightgray">
     Amennyiben úgy gondolja, hogy nincs szükség a fiókjára azt itt törölheti.
