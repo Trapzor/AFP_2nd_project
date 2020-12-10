@@ -18,13 +18,15 @@ $list = getList($query);
 ?>
 
 <div>
-    <h2>Összes termék</h2>
+
+<h2 class="filterBarText">Összes elérhető termék a shopban:</h2>
     <form method="post">
         <div class="filterBar">
-        <input type="text" name="filterInput" placeholder="Termék neve"></input>
+        <input type="text" name="filterInput" placeholder="Keresés"></input>
         <button type="submit" name="filterButton"><i class="fa fa-search"></i></button>
         </div>
     </form>
+
     <div class="productList">
         <?php foreach ($list as $i): ?>
             <div class="productCard">

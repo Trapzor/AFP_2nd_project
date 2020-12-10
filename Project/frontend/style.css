@@ -57,7 +57,7 @@ body {
   outline: none;
 }
 .regButton {
-    background-color: #35a4ac;
+    background-color:rgba(41, 174, 197, 0.582);
     color: white;
     padding: 16px 20px;
     margin: 8px 0;
@@ -159,7 +159,6 @@ footer{
 nav {
     margin-top: 1px;
     background:transparent;
-    /*background: linear-gradient(84deg, rgba(8,30,218,1) 0%, rgba(189,189,189,1) 100%);*/
     min-height: auto;
     text-align: center;
     overflow: hidden;
@@ -250,7 +249,7 @@ nav {
     text-align: center;
     width: 80%;
     margin: auto;
-    margin-top: 4%;
+    margin-top: 7%;
 }
 
 .userInfo {
@@ -566,4 +565,28 @@ opacity: 0.75;
 .alignUsername{
     margin-left: 5px;
     margin-top: 7px;
+}
+.filterBar{
+    
+    float: right;
+    margin-right: 14%;
+    outline: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    bottom: 55px;
+}
+.filterBar input{
+    padding: 10px;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+.filterBar button{
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+.filterBarText{
+    margin-left: 10%;
 }
