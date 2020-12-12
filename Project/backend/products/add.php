@@ -28,6 +28,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add'])) {
 }
 ?>
 
+<div class="image-container">
+    <img id="preview" alt="A feltöltött kép">
+</div>
 <div class="addFormContainer">
     <form method="post">
         <div class="form_add_row">
