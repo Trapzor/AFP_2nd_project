@@ -27,6 +27,12 @@ $list = getList($query);
         </div>
     </form>
 
+<?php if (IsUserLoggedIn() && !empty($_SESSION['permission']) && $_SESSION['permission'] > 0): ?>
+    <div class="add-product">
+        <a href="index.php?p=add" class="add-product-button"><i class="fa fa-plus"></i></a>
+    </div>
+<?php endif; ?>
+
     <div class="productList">
         <?php foreach ($list as $i): ?>
             <div class="productCard">

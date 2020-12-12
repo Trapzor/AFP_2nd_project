@@ -590,3 +590,70 @@ opacity: 0.75;
 .filterBarText{
     margin-left: 10%;
 }
+
+.add-product {
+    border-radius: 5px;
+    background-color: #4CAF50;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 14%;
+    overflow: hidden;
+}
+
+.add-product-button {
+    color: lawngreen;
+    text-decoration: none;
+    font-size: 18pt;
+    position: relative;
+    padding: 30%;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.add-product:hover {
+    transition: 500ms;
+    background-color: lawngreen;
+}
+.add-product-button:hover {
+    transition: 500ms;
+    color: #4caf50;
+}
+
+.addFormContainer {
+    box-sizing: border-box;
+    padding: 16px;
+    width: 40%;
+    justify-content: center;
+    margin: auto;      
+}
+
+.addButton {
+    background-color:rgba(41, 174, 197, 0.582);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.addButton:hover {
+    opacity: 1;
+}
+
+.addElements {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.addElements:hover{
+    background-color: #ddd;
+    outline: none;
+}
+
+
