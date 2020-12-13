@@ -698,4 +698,34 @@ opacity: 0.75;
     bottom: 25%;
 }
 
+#bugreports-container {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(39, 39, 122);
+    border-radius: 5px;
+    padding: 5px;
+}
 
+.br-header-element {
+    color: white;
+    font-size: 18pt;
+    margin: 5px 200px 5px 5px;
+}
+
+.bugreport-row {
+    background-color: white;
+    margin: 5px;
+    width: 99%;
+    position: relative;
+}
+.br-cell-user {
+    position: relative;
+}
+.br-cell-report {
+    position: absolute;
+    left: 28%;
+}
+.br-cell-date {
+    position: absolute;
+    left: 61%;
+}

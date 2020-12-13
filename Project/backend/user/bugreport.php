@@ -13,6 +13,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['bug_button'])) {
     }
 
 }
+if (IsUserLoggedIn() && isset($_SESSION['permission']) && $_SESSION['permission'] > 0) {
+    $query = "SELECT * FROM bugreports";
+    require_once 'backend/dbFunctions.php';
+    $brlist = getList($query);
+}
 ?>
 <div class="reportContainer">
 <form method="post" class="form_report">
@@ -24,4 +29,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['bug_button'])) {
         <input type="submit" name="bug_button" value="Jelentés küldése" class="reportButton">
     </div>
 </form>
-<div>
+</div>
+<?php if (IsUserLoggedIn() && $_SESSION['permission'] > 0): ?>
+    <div id="bugreports-container">
+        <div id="bugreports-header">
+            <span class="br-header-element">User</span> <span class="br-header-element">Message</span> <span class="br-header-element">Date</span>
+        </div>
+        <?php foreach ($brlist as $br): ?>
+            <div class="bugreport-row">
+                <span class="br-cell-user"><?=$br['uid']?></span>
+                <span class="br-cell-report"><?=$br['report']?></span>
+                <span class="br-cell-date"><?=$br['date']?></span>
+            </div>
+        <?php endforeach; ?>
+    </div>
+<?php endif; ?>
