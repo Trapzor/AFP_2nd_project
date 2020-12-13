@@ -354,7 +354,7 @@ nav {
     text-align: center;
 }
 
-.product button {
+.product .add-to-cart-button {
     font-size: 24px;
     position: relative;
     left: 25%;
@@ -368,16 +368,40 @@ nav {
     font-size: 200%;
     float: right;
 }
+
+.product .removeButton {
+    margin: 5px;
+    font-size: 200%;
+    float: right;
+    background: none;
+    border: none;
+    color: red;
+}
+
 #backToBrowse {
     margin: 5px;
     font-size: 200%;
     float: left;
 }
 
-.product h4 {
+.product #category {
     position: absolute;
-    left: 50%;
+    left: 80%;
     margin: 10px;
+}
+
+.product #categorylabel {
+    position: absolute;
+    float: left;
+    left: 60%;
+    bottom: 57%;
+}
+
+.product #ratinglabel {
+    position: absolute;
+    float: left;
+    left: 60%;
+    bottom: 71%;
 }
 
 #rating {
