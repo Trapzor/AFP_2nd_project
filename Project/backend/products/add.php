@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add'])) {
     ];
 
     if (empty($postData['pname']) || empty($postData['pimage']) || empty($postData['category']) || empty($postData['quantity']) || empty($postData['price'])) {
-        echo "Hiányzó adatok!";
+        echo "<script>alert('Hiányzó adatok!');</script>";
     } else {
         $target_dir = '/AFP_2nd_project/Project/Product_Images/';
         $target_file = $_SERVER['DOCUMENT_ROOT'].$target_dir.basename($_FILES['pimage']['name']);
@@ -17,13 +17,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add'])) {
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 
         if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg") {
-            echo "Csak jpg, png és jpeg formátum használható!";
+            echo "<script>alert('Csak jpg, png és jpeg formátum használható!');</script>";
             $uploadOk = 0;
         }
-
-        if ($uploadOk == 0) {
-            echo "Fájl feltöltése sikertelen.";
-        } else {
+        else if ($uploadOk == 1) {
             move_uploaded_file($_FILES['pimage']['tmp_name'], $target_file);
         }
 
@@ -38,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add'])) {
         ];
         require_once 'backend/dbFunctions.php';
         if (!executeDML($query, $params)) {
-            echo "Hiba a hozzáadás során!";
+            echo "<script>alert('Hiba a hozzáadás során!');</script>";
         } header("Location: index.php?p=add");
     }
 }
