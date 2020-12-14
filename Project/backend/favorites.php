@@ -5,7 +5,7 @@
     $fav_list = getList($query, $params);
 } else {
     $fav_list = [];
-    echo("Ahhoz, hogy a termékeket hozzáadd a kedvencekhez, előbb be kell jelentkezni!");
+    echo("<h1>Ahhoz, hogy a termékeket hozzáadd a kedvencekhez, előbb be kell jelentkezni!</h1>");
 }
 
 ?>
