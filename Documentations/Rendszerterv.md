@@ -68,17 +68,14 @@
     A dokumentum táblázatos formában beküldendő.
     A tesztelési dokumentum kitöltésére egy sablon:
 
-    ### Tesztelő: Vezetéknév Keresztnév
+    **Tesztelő: Vezetéknév Keresztnév**
+    
+    **Tesztelés dátuma: Év.Hónap.Nap**
 
-    ### Tesztelés ideje: Év.hónap.nap
-
-    ### Böngésző: Böngésző neve
-
-    Tesztszám | Rövid leírás | Eredmény | Megjegyzés
-    ----------|--------------|----------|------------
-    például. Teszt #01 | Regisztráció | Sikeres regisztrálás | Nem találtam problémát.
-    ... | ... | ... | ...
-
+    Tesztszám | Rövid leírás | Várt eredmény | Eredmény | Megjegyzés
+    ----------|--------------|---------------|----------|-----------
+    például. Teszt #01 | Regisztráció | A felhasználó az adatok megadásával sikeresen regisztrálni tud  | A felhasználó sikeresen regisztrált | Nem találtam problémát.
+    ... | ... | ... | ... | ...
 
 * <h2>Telepítési terv</h2>
 
