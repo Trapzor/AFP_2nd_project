@@ -24,7 +24,7 @@
             }
             require_once "backend/dbFunctions.php";
             if (executeDML($query, $params)) {
-                header("Location: index.php?p=cart");
+                header("Location: index.php?p=rateservice");
             } else {
                 echo "<script>alert('Hiba a rendeléskor!');</script>";
             }

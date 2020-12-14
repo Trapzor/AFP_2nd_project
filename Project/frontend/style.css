@@ -77,6 +77,23 @@ body {
     justify-content: center;
     margin: auto;   
 }
+
+#skip_button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 10px;
+    float: right;
+}
+
+.successfulOrder {
+    background-color: yellowgreen;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+}
+
 .rateElements{
     width: 100%;
   padding: 15px;
