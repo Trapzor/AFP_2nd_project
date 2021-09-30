@@ -1,5 +1,5 @@
 <center><h1>Funkcionális Specifikáció</h1></center>
-
+asdasdsa
 * <h2>Áttekintés</h2>
     Az alkalmazásnak az elsődleges célja, hogy megkönnyítse az vásárlás folyamatát, mindenki számára.
     Épp ezért, mert mindenki a célközönsége az oldalnak teljesen felhasználóbarátnak kell lennie, hogy mindenki tudja használni. (a hátrányos helyzetűek is)
